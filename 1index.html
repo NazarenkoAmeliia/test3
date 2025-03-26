@@ -1,25 +1,64 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Завантаження Кружечками</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Мультфільм про Бембі</title>
+    <style>
+        table {
+            width: 90%;
+            border-collapse: collapse;
+            margin: auto;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 15px;
+            text-align: center;
+            vertical-align: top;
+        }
+        th {
+            background-color: lightblue;
+            font-size: 20px;
+        }
+        .yellow {
+            background-color: orange;
+            text-align: left;
+        }
+        .red {
+            background-color: lightpink;
+            color: black;
+            text-align: left;
+        }
+        img {
+            width: 100%;
+            max-width: 250px;
+            height: auto;
+        }
+        body {
+            background-color: lightgreen;
+        }
+    </style>
 </head>
 <body>
-
-  <div id="loader">
-    <div class="circle"></div>
-    <div class="circle"></div>
-    <div class="circle"></div>
-  </div>
-
-  <div id="content" style="display:none;">
-    <h1>Вітаємо на нашій веб-сторінці!</h1>
-    <p>Цей контент з'явиться пізніше...</p>
-  </div>
-
-  <script src="script.js"></script>
+    <table>
+        <tr>
+            <th colspan="2">Мультфільм про Бембі</th>
+        </tr>
+        <tr>
+            <td class="yellow">
+                Мультфільм розпочинається з народження нового Принца лісу — оленятка Бембі. Разом зі своїми першими друзями — Топотуном і його сестрами — він вчиться ходити, говорити і знайомиться з іншими мешканцями лісу.
+            </td>
+            <td>
+                <img src="https://static.ukrinform.com/photos/2020_01/thumb_files/630_360_1580055782-436.jpg">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="https://static.hdrezka.ac/i/2020/11/13/y49e262356789yk32c36i.jpeg">
+            </td>
+            <td class="red">
+                Несподіваній для нього стає зустріч з Феліно — маленькою оленихою, яка вважає спілкування з Бембі дуже цікавим і веселим. Бембі, проте, зовсім не розділяє радості Фелін. Намагаючись наздогнати настирливу знайому, Бембі зустрічається зі своїм батьком — Великим Князем лісу — найповажнішим оленем у всьому лісі.
+            </td>
+        </tr>
+    </table>
 </body>
 </html>
-
