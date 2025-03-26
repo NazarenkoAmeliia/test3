@@ -1,40 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello, World!</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            text-align: center;
-            padding: 20px;
-        }
-        h1 {
-            color: #2c3e50;
-        }
-        p {
-            color: #34495e;
-            font-size: 18px;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Завантаження Кружечками</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    
-    <!-- Add the image -->
-    <img src="https://cdn.tripzaza.com/ru/destinations/wp-content/uploads/2018/06/22-Plitvice_Lakes_National_Park-e1528956405106.jpg" alt="World" />
 
-    <p>
-        This website is dedicated to our beautiful world. We live on an amazing planet full of wonders and diversity.
-        The world is full of life, history, and culture. It is important to take care of our common home, Earth, in order
-        to preserve its beauty for future generations.
-    </p>
+  <div id="loader">
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+  </div>
+
+  <div id="content" style="display:none;">
+    <h1>Вітаємо на нашій веб-сторінці!</h1>
+    <p>Цей контент з'явиться пізніше...</p>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
+
